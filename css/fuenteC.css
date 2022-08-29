@@ -9,7 +9,7 @@ body {
 @font-face {
     font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 500;
     src: url('../fonts/cinzel-v19-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/cinzel-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -22,6 +22,6 @@ body {
 h1 {
     font-family: 'cinzel-v19-latin-regular';
     font-size: 5em;
-    color: rgb(199, 188, 154);
+    color: rgb(158, 134, 63);
 
 }
