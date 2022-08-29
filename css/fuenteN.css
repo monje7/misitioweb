@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(24,24,24,.9);
+    background-color: rgba(0, 8, 126, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,5 +9,5 @@ body {
 h1 {
     font-family: "Bebas Neue", cursive;
     font-size: 9em;
-    color: red;    
+    color: rgb(255, 255, 255);    
 }
