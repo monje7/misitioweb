@@ -18,3 +18,10 @@ body {
          url('../fonts/cinzel-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/cinzel-v19-latin-regular.svg#Cinzel') format('svg'); /* Legacy iOS */
   }
+
+h1 {
+    font-family: 'cinzel-v19-latin-regular';
+    font-size: 9em;
+    color: darkslategrey;
+
+}
