@@ -3,9 +3,12 @@ body {
     background-size: 100% 100%;
     background-attachment: fixed;
     background-color: rgba(114, 84, 84, 0.9);
+
+}
+
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
