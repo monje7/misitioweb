@@ -7,7 +7,11 @@ body {
 }
 
 h1 {
-    font-family: "Bebas Neue", cursive;
+    font-family: "waltograph42";
     font-size: 9em;
     color: rgb(255, 255, 255);    
+}
+@font-face {
+    font-family: "waltograph42";
+    src: url(../font/waltograph42.otf);
 }
