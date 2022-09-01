@@ -3,57 +3,41 @@
     display: inline-block;
     color :aliceblue;
     font-size: 1.8em;
+    width: 300px;
+    height: 300px;
 
 }
 
 .box-1 {
-    width: 500px;
-    height: 500px;
     background-color: rgb(0, 0, 255);
 }
 
 .box-2 {
-    width: 500px;
-    height: 500px;
     background-color: rgb(255, 0, 0);
 }
 
 .box-3 {
-    width: 500px;
-    height: 500px;
     background-color: rgb(0, 255, 0);
 }
 .box-4 {
-    width: 500px;
-    height: 500px;
     background-color: #A04000;
 }
 
 .box-5 {
-    width: 500px;
-    height: 500px;
     background-color: #212F3D;
 }
 
 .box-6 {
-    width: 500px;
-    height: 500px;
     background-color: #99A3A4;
 }
 .box-7 {
-    width: 500px;
-    height: 500px;
     background-color: goldenrod;
 }
 
 .box-8 {
-    width: 500px;
-    height: 500px;
     background-color: violet;
 }
 
 .box-9 {
-    width: 500px;
-    height: 500px;
     background-color: aquamarine;
 }
