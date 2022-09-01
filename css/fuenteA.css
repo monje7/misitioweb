@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(24,24,24,.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1 {
+    font-family: "DS-DIGII";
+    font-size: 5em;
+    color: rgb(165, 34, 143);    
+}
+@font-face {
+    font-family: "DS-DIGII";
+    src: url(../font/ds_digital/DS-DIGII.TTF);
+}
