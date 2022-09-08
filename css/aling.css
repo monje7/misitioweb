@@ -2,3 +2,12 @@ body {
     background-color: blanchedalmond;
 
 }
+
+.text-style {
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+
+}
+
