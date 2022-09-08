@@ -3,11 +3,49 @@ body {
 
 }
 
-.text-aling {
-    text-align: left;
-    text-align: right;
-    text-align: center;
-    text-align: justify;
-
+.box {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: beige;
 }
 
+.box-1 {
+    margin-top: 2px;
+    border-right: 5px solid black;
+    padding: 25px violet;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.box-2 {
+    margin-top: 2px;
+    border-right: 5px solid black;
+    padding: 25px violet;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.box-3 {
+    margin-top: 2px;
+    border-right: 5px solid black;
+    padding: 25px violet;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.box-4 {
+    margin-top: 2px;
+    border-right: 5px solid black;
+    padding: 25px violet;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+.box-5 {
+    margin-top: 2px;
+    border-right: 5px solid black;
+    padding: 25px violet;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
