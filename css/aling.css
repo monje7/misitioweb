@@ -17,9 +17,8 @@ body {
     padding: 25px rgb(202, 152, 111);
     background-color: rgb(206, 105, 105);
     margin-bottom: 20px;
-    border-left: 5px solid black;
-    border-top: 5px solid black;
-    border-right: 5px solid black;
+    border: 5px solid black;
+
 }
 
 .box-2 {
@@ -29,20 +28,17 @@ body {
     padding: 25px rgb(122, 219, 127);
     background-color: rgb(23, 107, 93);
     margin-bottom: 20px;
-    border-left: 5px solid black;
-    border-top: 5px solid black;
-    border-right: 5px solid black;
+    border: 5px Dotted black;
+
 }
 
 .box-3 {
     margin-top: 2px;
-
     padding: 25px rgb(175, 105, 196);
     background-color: rgb(101, 22, 167);
     margin-bottom: 20px;
-    border-left: 5px solid black;
-    border-top: 5px solid black;
-    border-right: 5px solid black;
+    border: 5px Dashed black;
+
 }
 
 
@@ -52,9 +48,8 @@ body {
     padding: 25px rgb(67, 156, 90);
     background-color: rgb(31, 71, 4);
     margin-bottom: 20px;
-    border-left: 5px solid black;
-    border-top: 5px solid black;
-    border-right: 5px solid black;
+    border: 5px Double black;
+
 }
 
 .box-5 {
@@ -62,7 +57,6 @@ body {
     padding: 25px rgb(189, 163, 78);
     background-color: rgb(221, 141, 37);
     margin-bottom: 20px;
-    border-left: 5px solid black;
-    border-top: 5px solid black;
-    border-right: 5px solid black;
+    border: 5px  Groove black;
+
 }
