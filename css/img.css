@@ -2,7 +2,15 @@ body {
     background-color: darkcyan;
 }
 
-.box-img  {
-    width: 100%;
+.img-1 {
     height: 100%;
+    width: 100%;
+}
+.img-2 {
+    height: 100%;
+    width: 100%;
+}
+.img-3 {
+    height: 100%;
+    width: 100%;
 }
