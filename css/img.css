@@ -7,3 +7,7 @@ body {
     width: 100%;
     border: 5px solid #200956;
 }
+
+h1, h2{
+    text-align: center;
+}
