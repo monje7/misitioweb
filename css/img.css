@@ -16,9 +16,11 @@ body {
 
 }
 .general {
+    margin-left: 25px;
+    display: flex;
     width: 100%;
     right: 100px;
-    background-color: blueviolet;
+    background-color: rgb(183, 150, 209);
     border: 5px solid #200956;
 }
 
