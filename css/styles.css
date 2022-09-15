@@ -2,9 +2,16 @@ body {
     background-image: url(img/29416.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
-    background-color: rgba(106, 92, 138, 0.9);
+    background-color: rgba(65, 103, 153, 0.9);
 
 }
+
+#desplegable {
+    margin: auto;
+    width: 500px;
+
+}
+
 
 nav {
     display: flex;
@@ -12,4 +19,47 @@ nav {
     align-items: center;
     height: 100vh;
     color: rgb(74, 6, 83);
+}
+
+nav li  {
+    margin-top: 5px;
+    border: 5px solid rgb(15, 1, 17);
+    background-color: rgb(117, 76, 141);
+    color: beige;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav li a {
+    background-color: rgb(164, 118, 190);
+    color: beige;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav li a:hover{
+    background-color: rgb(176, 136, 199);
+
+}
+
+nav > li {
+    float: left;
+
+
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li ul {
+    right: -140;
+    top: 0px;
 }
