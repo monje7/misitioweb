@@ -16,12 +16,14 @@ body {
 
 }
 .general {
-    margin-left: 25px;
+    margin: 25px;
     display: flex;
     width: 100%;
     right: 100px;
     background-color: rgb(183, 150, 209);
     border: 5px solid #200956;
+   margin-right: 25px;
+
 }
 
 .box-text {
@@ -30,6 +32,7 @@ body {
 }
  
 .contenedor {
+    margin-left: 125px;
     width: 250px;
     right: 250px;
     background-color: blueviolet;
@@ -39,4 +42,27 @@ body {
 h1{
     font-size: 3em;
     text-align: center;
+}
+
+.contenedor1 {
+    margin-left: 5px;
+    width: 400px;
+    right: 250px;
+    background-color: blueviolet;
+    border: 5px solid #200956;
+}
+.contenedor2 {
+    margin-left: 35px;
+    width: 400px;
+    right: 250px;
+    background-color: blueviolet;
+    border: 5px solid #200956;
+}
+
+.contenedor3 {
+    margin-left: 35px;
+    width: 400px;
+    right: 250px;
+    background-color: blueviolet;
+    border: 5px solid #200956;
 }
