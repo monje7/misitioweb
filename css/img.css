@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body {
     background-color: rgb(58, 24, 151);
 }
@@ -16,13 +20,13 @@ body {
 
 }
 .general {
-    margin: 25px;
+
     display: flex;
     width: 100%;
     right: 100px;
     background-color: rgb(183, 150, 209);
     border: 5px solid #200956;
-   margin-right: 25px;
+
 
 }
 
@@ -36,7 +40,7 @@ body {
     width: 250px;
     right: 250px;
     background-color: blueviolet;
-    border: 5px solid #200956;
+    border: 5px dashed #200956;
 }
 
 .contenedorJ {
@@ -44,7 +48,7 @@ body {
     width: 250px;
     right: 250px;
     background-color: blueviolet;
-    border: 5px solid #200956;
+    border: 5px dashed  #200956;
 }
 
 .contenedorJJ {
@@ -52,7 +56,7 @@ body {
     width: 250px;
     right: 250px;
     background-color: blueviolet;
-    border: 5px solid #200956;
+    border: 5px dashed #200956;
 }
 
 
@@ -71,7 +75,7 @@ h1{
     border: 5px solid #200956;
 }
 .contenedor2 {
-    margin-left: 200px;
+    margin-left: 225px;
     width: 400px;
     right: 250px;
     background-color: blueviolet;
