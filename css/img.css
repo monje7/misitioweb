@@ -32,12 +32,31 @@ body {
 }
  
 .contenedor {
-    margin-left: 125px;
+    margin-left: 335px;
     width: 250px;
     right: 250px;
     background-color: blueviolet;
     border: 5px solid #200956;
 }
+
+.contenedorJ {
+    margin-left: 200px;
+    width: 250px;
+    right: 250px;
+    background-color: blueviolet;
+    border: 5px solid #200956;
+}
+
+.contenedorJJ {
+    margin-left: 320px;
+    width: 250px;
+    right: 250px;
+    background-color: blueviolet;
+    border: 5px solid #200956;
+}
+
+
+
 
 h1{
     font-size: 3em;
@@ -45,14 +64,14 @@ h1{
 }
 
 .contenedor1 {
-    margin-left: 5px;
+    margin-left: 100px;
     width: 400px;
     right: 250px;
     background-color: blueviolet;
     border: 5px solid #200956;
 }
 .contenedor2 {
-    margin-left: 35px;
+    margin-left: 200px;
     width: 400px;
     right: 250px;
     background-color: blueviolet;
@@ -60,7 +79,7 @@ h1{
 }
 
 .contenedor3 {
-    margin-left: 35px;
+    margin-left: 200px;
     width: 400px;
     right: 250px;
     background-color: blueviolet;

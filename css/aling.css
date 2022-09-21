@@ -3,14 +3,14 @@ body {
 
 }
 
-.box {
-    display: inline-block;
-    text-align: center;
-    margin: 6em 3em 3em 3em;
-    width: 350px;
-    height: 250px;
-    background-color: rgb(168, 31, 127);
-}
+    .box {
+        display: inline-block;
+        text-align: center;
+        margin: 6em 3em 3em 3em;
+        width: 350px;
+        height: 250px;
+        background-color: rgb(168, 31, 127);
+    }
 
 .box-1 {
     margin-top: 4px;
