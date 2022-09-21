@@ -1,7 +1,4 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
+
 body {
     background-color: rgb(58, 24, 151);
 }
@@ -20,13 +17,11 @@ body {
 
 }
 .general {
-
     display: flex;
-    width: 100%;
-    right: 100px;
     background-color: rgb(183, 150, 209);
     border: 5px solid #200956;
-
+    margin: 25px;
+    margin-left: 50px;
 
 }
 
