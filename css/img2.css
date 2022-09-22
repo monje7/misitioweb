@@ -9,8 +9,8 @@ body {
 
 .imagen {
     display: inline-block;
-    width: 29%;
-    margin: 30px 1.55%;
+    width: 550px;
+    margin: 30px ;
     vertical-align: top;
 
     border: 5px solid rgb(88, 87, 87);
