@@ -6,7 +6,7 @@
 .imagen {
     display: inline-block;
     width: 29%;
-    margin: 30px 1.6%;
+    margin: 30px 1.55%;
     vertical-align: top;
 
     border: 5px solid rgb(88, 87, 87);
@@ -16,6 +16,7 @@
 .img-100 {
     width: 95%;
     padding: 10px;
+    border: 5px dashed black;
 }
 
 h1, h2, h3 {
