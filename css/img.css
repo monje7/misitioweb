@@ -21,6 +21,7 @@ body {
     width: 95%;
     padding: 10px;
     border: 5px dashed black;
+    border-radius: 20%;
 }
 
 h1, h2, h3 {
