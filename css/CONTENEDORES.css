@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin:     0;
+}
+
+.contenedor1 {
+    text-align: center;
+
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(183, 150, 209);
+    margin-left: 780px;
+    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+}
+
+.SEGUNDARIO {
+    display: flex;
+}
+
+.contenedor2 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(183, 150, 209);
+    margin-left: 615px;
+    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+}
+
+.contenedor3 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(183, 150, 209);
+    margin-left: 50px;
+    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+}
+
+.TERCEARIO {
+    display: flex;
+}
+
+.contenedor4 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(183, 150, 209);
+    margin-left: 450px;
+    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+}
+
+.contenedor5 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(183, 150, 209);
+    margin-left: 50px;
+    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+}
+
+.contenedor6 {
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(183, 150, 209);
+    margin-left: 50px;
+    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+}
