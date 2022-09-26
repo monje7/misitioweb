@@ -3,9 +3,12 @@
     margin:     0;
 }
 
-.contenedor1 {
+.box-text {
     text-align: center;
+}
 
+.contenedor1 {
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
@@ -20,6 +23,7 @@
 }
 
 .contenedor2 {
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
@@ -30,6 +34,7 @@
 }
 
 .contenedor3 {
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
@@ -44,6 +49,7 @@
 }
 
 .contenedor4 {
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
@@ -54,6 +60,7 @@
 }
 
 .contenedor5 {
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
@@ -64,6 +71,7 @@
 }
 
 .contenedor6 {
+    justify-content: center;
     margin: 20px;
     display: flex;
     width: 260px;
