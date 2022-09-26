@@ -3,19 +3,23 @@
     margin:     0;
 }
 
+body {
+    background-color: darkgrey;
+}
+
 .box-text {
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .contenedor1 {
     justify-content: center;
     margin: 20px;
-    display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
+    background-color: rgb(188, 185, 190);
     margin-left: 780px;
-    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+    box-shadow: 40px 20px 15px rgb(172, 173, 81);
 }
 
 .SEGUNDARIO {
@@ -28,9 +32,9 @@
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
+    background-color: rgb(188, 185, 190);
     margin-left: 615px;
-    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+    box-shadow: 40px 20px 15px rgb(62, 80, 182);
 }
 
 .contenedor3 {
@@ -39,9 +43,9 @@
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
+    background-color: rgb(188, 185, 190);
     margin-left: 50px;
-    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+    box-shadow: 40px 20px 15px rgb(62, 80, 182);
 }
 
 .TERCEARIO {
@@ -54,9 +58,9 @@
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
+    background-color: rgb(188, 185, 190);
     margin-left: 450px;
-    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+    box-shadow: 40px 20px 15px rgb(199, 106, 83);
 }
 
 .contenedor5 {
@@ -65,9 +69,9 @@
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
+    background-color: rgb(188, 185, 190);
     margin-left: 50px;
-    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+    box-shadow: 40px 20px 15px rgb(199, 106, 83);
 }
 
 .contenedor6 {
@@ -76,7 +80,8 @@
     display: flex;
     width: 260px;
     height: 260px;
-    background-color: rgb(183, 150, 209);
+    background-color: rgb(188, 185, 190);
     margin-left: 50px;
-    box-shadow: 40px 20px 15px rgb(117, 76, 148);
+    box-shadow: 40px 20px 15px rgb(199, 106, 83);
 }
+
