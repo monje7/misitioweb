@@ -26,7 +26,7 @@ body {
     height: 260px;
     background-color: rgb(188, 185, 190);
 
-    box-shadow: 40px 20px 15px rgb(172, 173, 81);
+    box-shadow: 40px 20px 38px rgb(172, 173, 81);
 }
 
 .PRIMARIO {
@@ -48,7 +48,7 @@ body {
     height: 260px;
     background-color: rgb(188, 185, 190);
 
-    box-shadow: 40px 25px 15px rgb(62, 80, 182);
+    box-shadow: 40px 25px 30px rgb(62, 80, 182);
 }
 
 .contenedor3 {
@@ -60,7 +60,7 @@ body {
     height: 260px;
     background-color: rgb(188, 185, 190);
  
-    box-shadow: 40px 25px 15px rgb(62, 80, 182);
+    box-shadow: 40px 25px 30px rgb(62, 80, 182);
 }
 
 .TERCEARIO {
@@ -77,7 +77,7 @@ body {
     height: 260px;
     background-color: rgb(188, 185, 190);
 
-    box-shadow: 40px 30px 15px rgb(199, 106, 83);
+    box-shadow: 40px 30px 25px rgb(199, 106, 83);
 }
 
 .contenedor5 {
@@ -89,7 +89,7 @@ body {
     height: 260px;
     background-color: rgb(188, 185, 190);
 
-    box-shadow: 40px 30px 15px rgb(199, 106, 83);
+    box-shadow: 40px 30px 25px rgb(199, 106, 83);
 }
 
 .contenedor6 {
@@ -101,6 +101,6 @@ body {
     height: 260px;
     background-color: rgb(188, 185, 190);
 
-    box-shadow: 40px 30px 15px rgb(199, 106, 83);
+    box-shadow: 40px 30px 25px rgb(199, 106, 83);
 }
 
