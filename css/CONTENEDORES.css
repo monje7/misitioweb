@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin:     0;
+
 }
 
 body {
@@ -8,22 +9,33 @@ body {
 }
 
 .box-text {
-    text-align: center;
     color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+
+    justify-content: center;
+    
 }
 
 .contenedor1 {
     justify-content: center;
+    display: flex;
     margin: 20px;
     width: 260px;
     height: 260px;
     background-color: rgb(188, 185, 190);
-    margin-left: 780px;
+
     box-shadow: 40px 20px 15px rgb(172, 173, 81);
+}
+
+.PRIMARIO {
+    justify-content: center;
+    display: flex;
 }
 
 .SEGUNDARIO {
     display: flex;
+    justify-content: center;
 }
 
 .contenedor2 {
@@ -33,7 +45,7 @@ body {
     width: 260px;
     height: 260px;
     background-color: rgb(188, 185, 190);
-    margin-left: 615px;
+
     box-shadow: 40px 20px 15px rgb(62, 80, 182);
 }
 
@@ -44,12 +56,13 @@ body {
     width: 260px;
     height: 260px;
     background-color: rgb(188, 185, 190);
-    margin-left: 50px;
+ 
     box-shadow: 40px 20px 15px rgb(62, 80, 182);
 }
 
 .TERCEARIO {
     display: flex;
+    justify-content: center;
 }
 
 .contenedor4 {
@@ -59,7 +72,7 @@ body {
     width: 260px;
     height: 260px;
     background-color: rgb(188, 185, 190);
-    margin-left: 450px;
+
     box-shadow: 40px 20px 15px rgb(199, 106, 83);
 }
 
@@ -70,7 +83,7 @@ body {
     width: 260px;
     height: 260px;
     background-color: rgb(188, 185, 190);
-    margin-left: 50px;
+
     box-shadow: 40px 20px 15px rgb(199, 106, 83);
 }
 
@@ -81,7 +94,7 @@ body {
     width: 260px;
     height: 260px;
     background-color: rgb(188, 185, 190);
-    margin-left: 50px;
+
     box-shadow: 40px 20px 15px rgb(199, 106, 83);
 }
 
