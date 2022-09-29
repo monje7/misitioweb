@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 th, td {
@@ -20,6 +21,7 @@ th, td {
 
 table {
     border-collapse: collapse;
+    box-shadow: 1px 1px rgb(4, 9, 80);
 }
 
 h1 {
