@@ -35,3 +35,7 @@ h1 {
     height: 75px;
     width: 100px;
 }
+
+.col {
+    background-color: rgb(202, 200, 200);
+}
