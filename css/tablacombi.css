@@ -39,3 +39,11 @@ h1 {
 .col {
     background-color: rgb(202, 200, 200);
 }
+
+.col2 {
+    background-color: rgb(230, 230, 230);
+}
+
+.t {
+    background-color: darkgrey;
+}
