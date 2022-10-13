@@ -17,3 +17,8 @@ input[type="text"]:hover {
     outline: none;
 } 
 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
