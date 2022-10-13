@@ -11,15 +11,46 @@
     <h1>informacion personal </h1>
 
 <form>
+
+    <fieldset>
+        <legend>Ingresa la iImformacion</legend>
     <label>
         ingrese el tipo de documento
     </label>
-    <select value=""> registro civil</select>
-    <select value=""> tarjeta de identidad</select>
-    <select value=""> Cedula de cuidadania</select>
-    <select value=""> </select>
-    <select value=""> registro civil</select>
-</form>
+    <select>
+    <option value=""> registro civil</option>   
+    <option value=""> tarjeta de identidad</option>
+    <option value=""> Cedula de cuidadania</option>
+    <option value=""> cedula extranjera </option>
+    <option value=""> registro civil</option>
+    </select>
+    <label>ingrese su numero de documento </label>
+     <input type="text" placeholder="ingrese #de documento">
+    <label>ingrese su(s) nombre(s) </label>
+      <input type="text" placeholder="ingresa tu nombre">
+    <label>ingrese su(s) Apellido(s) </label>
+        <input type="text" placeholder="ingresa tu apellido"> <br>
+    <label>ingrese su genero </label><BR>
+        <input type="radio" name="Genero " id="">masculino <br>
+        <input type="radio" name="Genero " id="">femenino <br>
+        <input type="radio" name="Genero " id="" checked="checked">ninguna   <br>
+|<label > selecione el dia de la cita</label>
+        <input type="checkbox" name="citadia" id="">Lunes<br>
+        <input type="checkbox" name="citadia" id="">Martes<br>
+        <input type="checkbox" name="citadia" id="">Miercoles<br>
+        <input type="checkbox" name="citadia" id="">Jueves<br>
+        <input type="checkbox" name="citadia" id="">Viernes<br>
+        <input type="checkbox" name="citadia" id="">Sabado<br>
+        <input type="checkbox" name="citadia" id="">Domingo<br>
+
+    <BR>    <label>COMENTARIOS</label><BR>
+            <textarea name="" id="" cols="54" rows="8"></textarea><br><BR>
+
+        <input type="submit" value="enviar"><br><br>
+
+        <button>confirmar</button>
+
+    </fieldset>
 
 </body>
 </html>

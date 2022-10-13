@@ -1,0 +1,19 @@
+label {
+    display: block;
+}
+
+input[type="text"] {
+    margin: bottom 20px; ;
+    padding: 6px;
+    font-size: 1.2em;
+    width: 450px;
+    border: none;
+    border-bottom: 1px solid rgb(68, 60, 60);
+
+}
+
+input[type="text"]:hover {
+    background-color: darkgrey;
+    outline: none;
+} 
+
