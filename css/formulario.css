@@ -5,8 +5,10 @@ body {
     color: #484e51;
     
     margin: 0;
-    background-color: #b8b8b8;
+    background-color: #7c7c7c98;
 }
+
+
 
 #contenedor {
     display: flex;
@@ -34,6 +36,8 @@ body {
 }
 
 #login {
+    
+    
     width: 100%;
     padding: 50px 30px;
     background-color: #8f8e8e;
@@ -42,7 +46,7 @@ body {
     -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     box-shadow: 35px 40px 20px 0px rgba(0,0,0,0.15);
     
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
     
@@ -71,13 +75,13 @@ body {
 
 #login input::placeholder {
     font-family: 'Overpass', sans-serif;
-    color: #000000;
+    color: #e00000;
 }
 
 #login button {
     font-family: 'Overpass', sans-serif;
     font-size: 110%;
-    color:#1b262c;
+    color:#0992db;
     width: 100%;
     height: 40px;
     border: none;
@@ -122,7 +126,7 @@ body {
 .inferior a {
     display: block;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 3px;
 }
 
