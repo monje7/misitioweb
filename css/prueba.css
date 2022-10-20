@@ -1,0 +1,4 @@
+input[type="text"].txt-usuario:focus {
+    outline: none;
+    box-shadow:2px 2px 6px blueviolet, -2px -2px 6px blueviolet;
+}

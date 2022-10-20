@@ -3,10 +3,12 @@ body {
     font-weight: normal;
     font-size: 100%;
     color: #484e51;
-    
+    background-image: url(/img/como-hacer-una-pagina-web-en-html\ \(1\).jpeg);
     margin: 0;
+    padding: 0;
     background-color: #7c7c7c98;
-}
+
+} 
 
 
 #contenedor {
@@ -72,6 +74,8 @@ body {
     -webkit-border-radius: 3px 3px 3px 3px;
 }
 
+
+
 #login input::placeholder {
     font-family: 'Overpass', sans-serif;
     color: #e00000;
@@ -133,3 +137,11 @@ body {
     color: #ff0000;
 }
 
+input[type="text"].txt-usuario:focus {
+    outline: none;
+    box-shadow:2px 2px 6px blueviolet, -2px -2px 6px blueviolet;
+}
+input[type="password"].txt-usuario:focus {
+    outline: none;
+    box-shadow:2px 2px 6px blueviolet, -2px -2px 6px blueviolet;
+}
