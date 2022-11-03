@@ -74,6 +74,13 @@
 
 }
 
+.botom_menu {
+    background-color: rgb(108, 108, 184);
+    width: 120px;
+    height: 30px;
+    color: azure;
+}
+
 .boton:hover .box {
     display: block;
     position: relative  ;
