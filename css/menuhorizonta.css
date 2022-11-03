@@ -7,8 +7,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.ve {
-    background-color: black;
+.ve { 
+    background-color: rgb(78, 78, 78);
     color: white;
     width: 250px;
     height: 50px;
@@ -23,20 +23,31 @@ body {
     color: black;
 }
 .sub {
-    background-color: rgb(197, 197, 204);
+    background-color: rgb(241, 241, 241) ;
     display: flex;
     display: inline-block;
-    padding: 8px;
-    border-right:2px solid orangered;
+    padding: 7px;
+    border-right:2px solid rgb(11, 226, 22);
     margin-left: -3.8px;
+    height: 15px;
 }
 .sub:hover {
     cursor: pointer ;
     color: white;
-    background-color: black;
+    background-color: rgb(122, 122, 122);
     border-right:3px solid blue;
 }
 .fondo {
-    background-color: white ;
+    background-color: rgb(241, 241, 241) ;
 }
 
+.deco {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+}
+
+.img100 {
+    width: 100%;
+}
