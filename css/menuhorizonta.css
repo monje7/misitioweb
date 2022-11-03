@@ -35,7 +35,7 @@ body {
     cursor: pointer ;
     color: white;
     background-color: rgb(122, 122, 122);
-    border-right:3px solid blue;
+    border-right:3px solid rgb(0, 255, 55);
 }
 .fondo {
     background-color: rgb(241, 241, 241) ;
