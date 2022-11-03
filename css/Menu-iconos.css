@@ -1,0 +1,40 @@
+*{
+    
+}
+nav {
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    border-right: 1PX solid rgb(217, 226, 232);
+    cursor: pointer;
+}
+.barras {
+    width: 35px;
+}
+
+.fa-solid {
+    font-size: 1em;
+}
+.icono:hover{
+    color: black;
+}
+li, ul {
+    height: 30px;
+    padding: 5px;
+    list-style: none;
+}
+a {
+    text-decoration: aqua;
+}
+hr {
+    border: 0;
+    margin: 0;
+    width: 95%;
+    height:1px ;
+    background: rgb(217, 226, 232);
+}
+ul:hover {
+    background-color: rgb(204, 201, 201);
+}
