@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.ve {
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin: 3px;
+    padding-left: 20px;
+    text-align: left;
+    align-items:left ;
+}
+.ve:hover {
+    cursor: pointer;
+    background-color: rgb(128, 126, 126);
+    color: black;
+}
+.sub {
+    background-color: rgb(197, 197, 204);
+    display: flex;
+    display: inline-block;
+    padding: 8px;
+    border-right:2px solid orangered;
+    margin-left: -3.8px;
+}
+.sub:hover {
+    cursor: pointer ;
+    color: white;
+    background-color: black;
+    border-right:3px solid blue;
+}
+.fondo {
+    background-color: white ;
+}
+
