@@ -39,3 +39,9 @@ li {
 li:hover {
     background-color: rgb(194, 189, 189);
 }
+
+@media only screen and (min-width: 768px) and (max-width:1368px) {
+    .co {
+        visibility: hidden;
+    }
+}
