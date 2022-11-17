@@ -69,7 +69,7 @@ nav ul ul ul {
 }
 
 .menu:hover {
-    background-color: rgba(193, 194, 195, 0.777);
+    background-color: rgba(168, 184, 201, 0.777);
     cursor: pointer;
     color: rgb(177, 171, 171);
 }
