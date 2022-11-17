@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.conter {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: lightslategrey;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+.men {
+    display: flex;
+}
+
+li {
+    float: left;
+}
+
+.co {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+li:hover {
+    background-color: rgb(194, 189, 189);
+}
