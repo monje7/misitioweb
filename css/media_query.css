@@ -9,6 +9,7 @@
     font-size: 2.2em;
     top: 15px;
     right: 30px;
+    cursor: pointer;
     visibility: hidden;
 }
 .main-nav{
@@ -45,9 +46,7 @@
     line-height: 1.3em;
 }
 @media only screen and (max-width:1152px){
-   /* .main-menu{
-    display: none;
-    }*/
+  
     .main-nav{
         position: fixed;
         margin-top: 0;
