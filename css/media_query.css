@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
-.bar-menu{
+.bar-menu {
     position: fixed;
     color: white;
     font-size: 2.2em;
@@ -12,73 +12,65 @@
     cursor: pointer;
     visibility: hidden;
 }
-.main-nav{
+.main-nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(48,48,48,.9);
     height: 80px;
 }
-.main-menu{
+.main-menu {
     list-style: none;
     text-align: right;
 }
-.href-item{
+.href-item {
     display: block;
     color: white;
     text-decoration: none;
     font-size: 1.5em;
 }
-.item-main-menu{
+.item-main-menu {
     height: 80px;
     display: inline-block;
     padding: 30px 45px;
 }
-.item-main-menu:hover{
+.item-main-menu:hover {
     cursor: pointer;
-    background-color: black;
+    background-color: black; 
 }
-.texto-parrafo{
+.texto-parrafo {
     font-size: 1.2em;
     margin: 120px 60px;
     text-align: justify;
     line-height: 1.3em;
 }
-@media only screen and (max-width:1152px){
-  
-    .main-nav{
-        position: fixed;
-        margin-top: 0;
-        width: 100%;
-        height: 80px;
-        background-color: rgb(45, 45, 45);
+@media only screen and (max-width: 1152px) {
+    .bar-menu {
+        visibility: visible;
     }
-    .main-menu{
-        background-color: rgba(0, 0, 0, 0.436);
-        margin-top: 80px;
-        padding: 0;
+    .main-menu {
+        display: none ;
+    }
+    .menu-bloque-oculto {
         display: none;
     }
-    .main-menu-visible{
+    .menu-bloque-visible {
         display: block;
-        background-color: rgba(35, 35, 35, 0.827);
+        background-color: rgb(96,96,96,.9);
         margin-top: 81px;
         padding: 0;
     }
-    .item-main-menu{
+    .item-main-menu {
         width: 100%;
         display: block;
         line-height: 70px;
         text-align: center;
         padding: 0;
-        border-bottom: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid white;
     }
-    .item-main-menu:hover{
-        background-color: rgba(16, 16, 16, 0.341);
+    .item-main-menu:hover {
+        background-color: rgb(48,48,48,.9); 
     }
-    .bar-menu {
-        visibility: visible;
-        color: rgb(255, 255, 255);
-    }     
+   
 }
