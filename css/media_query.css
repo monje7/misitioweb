@@ -59,6 +59,13 @@
         background-color: rgba(0, 0, 0, 0.436);
         margin-top: 80px;
         padding: 0;
+        display: none;
+    }
+    .main-menu-visible{
+        display: block;
+        background-color: rgba(35, 35, 35, 0.827);
+        margin-top: 81px;
+        padding: 0;
     }
     .item-main-menu{
         width: 100%;
