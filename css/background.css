@@ -11,41 +11,20 @@ body {
     margin: 0;
 }
 
-.nav {
-    display: flex;
-    justify-content: right;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    
-}
 
-ul, ol {
-    list-style: none;
+
+.menu {
+    background-color: darkgray;
+    text-align: right;
 
 }
 
-.deci {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(56, 54, 54)
+li {
+    font-size: 2.5em;
+    display: inline-block;
+    margin: 25px;
 }
 
-.DECO {
-    margin: 15px;
-    background-color: rgb(53, 53, 53);
-    width: 120px;
-    height: 30px;
-    
-   
-}
-
-.h2 {
-    color: white;
-}
-
-.DECO:hover {
-    background-color: aliceblue;
+li:hover {
+    background-color: darkgrey;
 }
