@@ -3,10 +3,19 @@
     padding: 0px;
 }
 
+body {
+    background-image: url("../img/fondo3.jpg");
+    width: 100%;
+    height: 100vh;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+}
+
 .vonter {
     width: 100%;
     background-color: rgb(87, 87, 87);
     height: 58px;
+    box-shadow: 0px 20px 20px blueviolet;
 
 }
 
@@ -18,7 +27,7 @@
 }
 
 .tex {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     display: block;
 }
@@ -46,7 +55,7 @@ ul, ol {
 }
 
 .nav li a:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
 }
 
 .nav > li {
@@ -71,4 +80,20 @@ ul, ol {
 .nav li ul li ul {
     right: 140px;
     top: 0px;
+}
+
+.conternet {
+    background-color: rgb(190, 190, 190);
+    width: 1400px;
+    height: 2000px;
+    margin-top: 35px;
+    box-shadow: 20px 20px 20px blueviolet;
+    margin-bottom: 50px;
+
+    
+}   
+
+.padre {
+    display: flex;
+    justify-content: center;
 }
