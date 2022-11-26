@@ -11,6 +11,13 @@ body {
     background-size: cover;
 }
 
+.omg {
+    justify-content: left;
+   display: inline-block;
+   align-items: center;
+}
+
+
 .vonter {
     width: 100%;
     background-color: rgb(87, 87, 87);
