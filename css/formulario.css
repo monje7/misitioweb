@@ -1,13 +1,15 @@
 body {
-    font-family: 'Overpass', sans-serif;
-    font-weight: normal;
+
     font-size: 100%;
     color: #484e51;
-    background-image: url(/img/como-hacer-una-pagina-web-en-html\ \(1\).jpeg);
+    background-image: url(../img/fondoinicio.jpg);
     margin: 0;
     padding: 0;
-    background-color: #7c7c7c98;
 
+    width: 100vh;
+    height: 100%;
+    
+ 
 } 
 
 
