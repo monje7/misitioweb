@@ -45,7 +45,7 @@ h2 {
     width: 200px;
     height: 200px;
     background-color: aqua;
-    padding: 30px;
+    border-radius: 10px;
     margin: 15px;
 }
 
@@ -55,5 +55,33 @@ h2 {
     background-color: brown;
     height: 300px;
     overflow-x: scroll;
+
+}
+
+
+.box-spacebetween {
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-between;
+
+}
+
+.box-space-around {
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-around;
+}
+.box-space-evenly {
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-evenly;
+}
+
+
+
+.som {
+    box-shadow: 10px 10px 10px rgb(75, 75, 75);
+    border-radius: 10px;
+
 
 }
