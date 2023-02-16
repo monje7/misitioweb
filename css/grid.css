@@ -46,3 +46,14 @@
 h2,h1 {
     margin: 35px;
 }
+
+.box3-8 {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.box3-9 {
+    background-color: rgb(238, 238, 238);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
