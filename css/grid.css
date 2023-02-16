@@ -48,7 +48,7 @@ h2,h1 {
 }
 
 .box3-8 {
-    background-color: aqua;
+    background-color: rgb(25, 0, 255);
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -57,3 +57,4 @@ h2,h1 {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+

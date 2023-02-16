@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+
+
+.calen {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px ;
+    justify-content: center;
+    width: 1750px;
+    margin-left: 30px;
+}
+
+.box {
+    background-color: darkcyan;
+    border: 2px darkblue solid;
+    box-shadow: 3px 3px 5px rgb(1, 1, 59);
+    height:80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    margin: 5px;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px ;
+    justify-content: center;
+    width: 1750px;
+    margin-left: 30px;
+}
+
+.mes     {
+    background-color: rgb(128, 165, 165);
+    border: 2px darkblue solid;
+    box-shadow: 3px 3px 5px rgb(1, 1, 59);
+    height:80px;
+    color: rgb(0, 0, 0);
+    display: flex;
+
+    font-size: 1.4em;
+    margin: 5px;
+    text-align: end;
+}
+
+.nes1 {
+    background-color: rgb(128, 165, 165);
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.nes6{
+    background-color: rgb(179, 110, 110);
+} 
+.nes13{
+    background-color: rgb(179, 110, 110);
+}
+.nes20{
+    background-color: rgb(179, 110, 110);
+}
+.nes27{
+    background-color: rgb(179, 110, 110);
+}
+.nes5{
+    background-color: rgb(179, 110, 110);
+}
+.nes12{
+    background-color: rgb(179, 110, 110);
+}
+.nes19{
+    background-color: rgb(179, 110, 110);
+}
+.nes26{
+    background-color: rgb(179, 110, 110);
+}
+
