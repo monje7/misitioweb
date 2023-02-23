@@ -4,13 +4,17 @@
 
 }
 
-
+body {
+    background-color: rgb(0, 0, 0);
+}
 
 h1{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px;
+    color: white;
+    text-shadow: 3px 3px 5px blueviolet;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
 }
@@ -26,9 +30,9 @@ h1{
 }
 
 .box {
-    background-color: darkcyan;
+    background-color: rgba(0, 112, 112, 0);
     border: 2px darkblue solid;
-    box-shadow: 3px 3px 5px rgb(1, 1, 59);
+    box-shadow: 3px 3px 5px blueviolet;
     height:80px;
     color: white;
     display: flex;
@@ -44,23 +48,24 @@ h1{
     justify-content: center;
     width: 1750px;
     margin-left: 30px;
+    
 }
 
 .mes     {
-    background-color: rgb(128, 165, 165);
+    background-color: rgba(128, 165, 165, 0);
     border: 2px darkblue solid;
-    box-shadow: 3px 3px 5px rgb(1, 1, 59);
+    box-shadow: 3px 3px 5px blueviolet;
     height:80px;
     color: rgb(0, 0, 0);
     display: flex;
-
+    color: white;
     font-size: 1.4em;
     margin: 5px;
     text-align: end;
 }
 
 .nes1 {
-    background-color: rgb(128, 165, 165);
+    background-color: rgba(128, 165, 165, 0);
     grid-column-start: 3;
     grid-column-end: 4;
 }
@@ -90,3 +95,12 @@ h1{
     background-color: rgb(179, 110, 110);
 }
 
+.mes:hover {
+    background-color: rgba(84, 85, 85, 0.568);
+    box-shadow: 6px 6px 10px red;
+}
+
+.box:hover {
+    background-color: rgba(66, 66, 66, 0.568);
+    box-shadow: 6px 6px 10px red;
+}
