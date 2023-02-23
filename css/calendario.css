@@ -35,6 +35,7 @@ h1{
     box-shadow: 3px 3px 5px blueviolet;
     height:80px;
     color: white;
+    text-shadow: 5px 5px 5px blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,8 +97,8 @@ h1{
 }
 
 .mes:hover {
-    background-color: rgba(84, 85, 85, 0.568);
-    box-shadow: 6px 6px 10px red;
+    background-color: rgba(58, 58, 58, 0.568);
+    box-shadow: 6px 6px 10px rgb(0, 68, 255);
 }
 
 .box:hover {
