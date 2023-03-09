@@ -282,7 +282,82 @@ body {
         display: none;
     }.til-10 {
         display: none;
+    }.til-7 {
+        display: none;
+    }.til-9 {
+        display: none;
     }
+
+       
+    .contenido {
+        height: 250px;
+        justify-content: center
+    }
+
+        .p1 {
+            height: 120px;
+
+        }
+
+        .p2 {
+            height: 120px;
+        }
+
+ 
+    .subcontenido {
+      
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+    }
+
+}                      
+
+
+@media only screen and (max-width: 450px) {
+
+    .bar-menu {
+        visibility: visible;
+    }
+
+    .til-8 {
+        position: fixed;
+    }
+
+    .til-0 {
+        position: fixed;
+        margin-left: 50px;
+    }
+    
+    .contenido {
+        height: 250px;
+        font-size:0.8em ;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .til-1 {
+        display: none;
+    }.til-2 {
+        display: none;
+    }.til-3 {
+        display: none;
+    }.til-4 {
+        display: none;
+    }.til-5 {
+        display: none;
+    }.til-10 {
+        display: none;
+    }.til-7 {
+        display: none;
+    }.til-9 {
+        display: none;
+    }
+
+
        
     .contenido {
         height: 250px;
