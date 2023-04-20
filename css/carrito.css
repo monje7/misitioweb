@@ -1,0 +1,198 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .container {
+    background-color: rosybrown;
+    width: 200px;
+    height: 200px;
+} */
+.box-main{
+    margin: 0px 76px;
+    display:grid;
+    grid-template:"img-box-main empty" /
+                     435px   1fr;
+}
+.img-box-main{
+    display: grid;    
+    /* background-color: rgb(119, 119, 139); */
+    width: 100%;
+    /* height: 100vh;*/
+    grid-template:"img-box  img-box img-box   img-box img-box  img-box img-box "435px
+                  "empty-0  empty-0 empty-0   empty-0 empty-0  empty-0 empty-0 "30px
+                  "box-img-1 empty-1 box-img-2 empty-2  box-img-3 empty-3 box-img-4" 90px /
+                  90px 25px          90px 25px         90px 25px            90px;
+   
+}
+.img-box{
+    grid-area: img-box;
+    width: 100%;
+    cursor: pointer;
+
+}
+.img-mini{
+    width: 100%;
+    cursor: pointer;
+
+}
+.box-img-1{
+    grid-area: box-img-1;
+    cursor: pointer;
+}
+.box-img-2{
+    grid-area: box-img-2;
+    cursor: pointer;
+}
+.box-img-3{
+    grid-area: box-img-3;
+    cursor: pointer;
+}
+.box-img-4{
+    grid-area: box-img-4;
+    cursor: pointer;
+}
+.box-img-mini{
+    border-radius: 15px;
+    border: 3px solid rgb(255, 125, 26);
+}
+.img-mini-a{
+    opacity: 0.4;
+}
+img{
+    border-radius: 12px;
+}  
+
+.icon-op{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(201, 197, 194, 0.247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    border: 2px solid whitesmoke;
+}
+.cant-obj{
+    color: rgb(48, 48, 48);
+    font-size: 1.2em;
+}
+
+.btn-sumar, .btn-restar{
+    color:  rgb(255, 125, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+.cant-box{
+    display: inline-flex;
+    flex-direction: row;
+}
+.menu{
+    background-color: whitesmoke;
+    margin-left: 100px;
+}
+.Sneakers{
+    color: black;
+    font-size: 3.0em;
+    font-family: 'Dongle', sans-serif;
+    list-style: none;
+}
+.item{
+    color: grey;
+    font-size: 1.0em;
+    cursor: pointer;
+    border-bottom: 1px solid orangered;
+    list-style: none;
+}
+
+.Menu1{
+    display: inline-flex;
+    align-items: center;
+    gap: 100px;
+}
+.cont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 90px 0px 90px 90px;
+ 
+}
+
+.sneake{
+    color: orange;
+    font-weight: bold;
+}
+
+.sub{
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.bottom {
+    margin-bottom: 15px;
+}
+
+.number-flex {
+    display: inline-flex;
+    gap: 15px;
+}
+
+.number {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.dto {
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: rgb(255, 226, 205);
+    color: rgb(248, 103, 7);
+    font-weight: bold;
+    height: 25px;
+    padding: 5px;
+}
+
+
+.counter {
+    display: inline-flex;
+}
+.less {
+    padding-inline: 25px;
+    grid-area: less;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 81, 0);
+}
+
+
+.add {
+    border-radius: 8px;
+    border: none;
+    height: 58px;
+    margin-left: 30px;
+    width: 270px;
+    background-color: rgb(255, 123, 0);
+}
+
+.txt-add {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: whitesmoke;
+   
+}
+.car{
+margin-right: 35px;
+  height: 25px;
+  width: 40px;
+}
+.before {
+    color: gray;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
