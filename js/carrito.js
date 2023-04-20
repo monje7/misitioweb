@@ -1,5 +1,4 @@
 
-
 let cont = document.getElementById("imgboxx");
 let imgUno = document.getElementById("imgMini1");
 let imgDos = document.getElementById("imgMini2");
@@ -98,23 +97,61 @@ let btnSumar = document.getElementById("btnSumar");
 //     numeroElementos.innerHTML = totalElementosTxt;  
 //  });
 
+let valorUnitario= 190000;
+let valorUnitarioTxt = valorUnitario.toString();
+
+let valorUnitarioPeso = new Intl.NumberFormat().format (valorUnitario);
+
+let cantNumtotal= valorUnitarioTxt.length
+
+
+let valorTotal = document.getElementById("valorTotal");
+let valorTotalInt = 0;
+
+
+
+
+
 let click= 0;
 
-btnSumar.addEventListener("click", function(){
-    if (click == 50){
-        click =50;
+btnSumar.addEventListener("click",function(){
+    // nodeToAdd.appendChild(nodeText);
    
-    }else{
-        click = click + 1
-        numeroElementos.innerHTML = click
-    }
-})
-btnRestar.addEventListener("click", function(){
-    if (click== 0){
-        click=  0;
-   
-    }else{
-        click = click - 1
-        numeroElementos.innerHTML = click
-    }
+    // btnCantidad.appendChild(nodeToAdd);
+    let numeroElementosTxt = document.getElementById("numeroElementos").innerHTML;
+
+    let numeroElementosInt = parseInt(numeroElementosTxt);
+    let totalElementosInt = numeroElementosInt + 1 ;
+    let totalElementostxt = totalElementosInt.toString();
+    numeroElementos.innerHTML = totalElementostxt;
+
+    valorTotalInt = valorUnitario * totalElementosInt;
+    valorTotal.innerHTML="$" + new Intl.NumberFormat().format(valorTotalInt);
+
 });
+btnRestar.addEventListener("click",function(){
+
+    if(numeroElementos.innerHTML > 0){
+        let numeroElementosTxt = document.getElementById("numeroElementos").innerHTML;
+        let numeroElementosInt = parseInt(numeroElementosTxt);
+        let totalElementosInt = numeroElementosInt - 1 ;
+        let totalElementostxt = totalElementosInt.toString();
+        numeroElementos.innerHTML = totalElementostxt;
+        valorTotalInt = valorUnitario * totalElementosInt;
+    valorTotal.innerHTML="$" + new Intl.NumberFormat().format(valorTotalInt);
+    };
+});
+
+
+
+
+let lightbox = document.getElementById("lightbox");
+let btnX = document.getElementById("btnX");
+imgBox.addEventListener("click", function(){
+    lightbox.classList.remove("ligth-hidden");
+});
+
+btnX.addEventListener("click", function(){
+lightbox.classList.add("ligth-hidden");
+
+})

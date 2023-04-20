@@ -10,7 +10,16 @@
     width: 200px;
     height: 200px;
 } */
+
+.conten {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
 .box-main{
+
     margin: 0px 76px;
     display:grid;
     grid-template:"img-box-main empty" /
@@ -91,13 +100,25 @@ img{
     display: inline-flex;
     flex-direction: row;
 }
+
+.centre {
+    justify-content: center;
+    display: flex;
+
+}
+
 .menu{
-    background-color: whitesmoke;
-    margin-left: 100px;
+ 
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 550px;
+
+    width: 1150px;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.568);
+    
 }
 .Sneakers{
     color: black;
-    font-size: 3.0em;
+    font-size: 3.3em;
     font-family: 'Dongle', sans-serif;
     list-style: none;
 }
@@ -105,14 +126,14 @@ img{
     color: grey;
     font-size: 1.0em;
     cursor: pointer;
-    border-bottom: 1px solid orangered;
+    
     list-style: none;
 }
 
 .Menu1{
     display: inline-flex;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 }
 .cont{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -194,5 +215,101 @@ margin-right: 35px;
     color: gray;
     font-weight: bold;
     text-decoration: line-through;
+}
+
+/* ligthbox  */
+
+
+.lightbox {
+    background-color: rgb(64, 64, 65,.8);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.main-ligthbox {
+    width: 850px;
+    height: 750px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+}
+
+
+.org {
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.bton-back {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(240, 248, 255, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 20px;
+      cursor: pointer;
+}
+
+.imgG{
+    width: 650px;
+
+
+
+
+}
+
+.cerrar{
+    justify-content: left;
+    display: flex;
+    left: 94%;
+    font-weight: 900;
+    position: relative;
+    cursor: pointer;
+    margin: 20px;
+    
+}
+
+
+.org2 {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+}
+
+.bton-next {
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(240, 248, 255, 0.733);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: black;
+    right: 20px;
+      cursor: pointer;
+ 
+}
+
+
+.ligth-hidden{
+    display: none;
 }
 

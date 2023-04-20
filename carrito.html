@@ -9,20 +9,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icons/all.css">
+
+
 </head>
 
 <body>
+
+    <div class="lightbox ligth-hidden" id="lightbox" >
+
+        <div class="main-ligthbox">
+            <div class="org">
+                <div class="bton-back"><i class="fa-solid fa-chevron-left"></i>
+                </div>
+            </div>
+
+
+
+                
+
+   
+
+            
+            <div class="imgG">
+                
+                <i class="cerrar  fa-solid fa-xmark"></i>
+
+                <img src="img/image-product-1.jpg" alt="img" width="650" >
+
+            </div>
+
+
+
+            <div class="org2">
+                <div class="bton-next"><i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+<div class="centre">
     <div class="menu">
         <nav>
             <ul class="Menu1">
-                <li class="Sneakers">Sneakers</li>
-                <li class="item"> Colecciones</li>
-                <li class="item">Mujer</li>
-                <li class="item">Acerca de</li>
-                <li class="item">Contacto</li>
+                <li class="Sneakers">sneakers</li>
+                <li class="item"> Collections</li>
+                <li class="item">Men</li>
+                <li class="item">Women</li>
+                <li class="item">About</li>
+                <li class="item">Contact</li>
             </ul>
         </nav>
     </div>
+</div>    
+
+
+<div class="conten">
     <div class="box-main">
      <div class="img-box-main">
         <!-- <div class="box-img-mini" id="cont"> -->
@@ -49,13 +94,11 @@
             durable rubber
             outer sole, they'll <br> withstand everything the weather can offer</p>
 
-        <div class="number-flex">
-            <p class="number bottom">$125.00
-            <p class="dto">50%</p>
-            </p>
-        </div>
-
-        <p class="before bottom">$250.00</p>
+            <div id="number-flex" class="number-flex">
+                <div id="valorTotal" class="valorTotal"></div>
+            </div>
+       
+            <p class="before bottom">$250.00</p>
         <div class="counter">
             <div class="buttons">
                 <div class="btn less point" id="less">
@@ -70,6 +113,8 @@
     </div>
    </div>
  </div>
+
+</div>    
 
     <script src="js/carrito.js"></script>
 </body>
