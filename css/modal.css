@@ -1,0 +1,384 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* .main-box{
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+} */
+
+.main {
+    margin: 0 15%;
+    display: grid;
+    grid-template: "img-box-main empty" / 435px 1fr;
+}
+
+.body-vis {
+    display: block;
+    transition: opacity 0.5s;
+    opacity: 0.9;
+}
+
+.cover-main {
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 102vh;
+    width: 102%;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+/* .op{
+    z-index: 999999999;
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+} */
+.main-modal {
+    z-index: 2;
+    position: absolute;
+    display: none;
+    top: 45.4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-modal-vis {
+    display: block;
+}
+
+.box-modal {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-img-box {
+    margin-bottom: 50px;
+}
+
+.tittle {
+    margin: 20px;
+    text-align: center;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.border {
+    height: 90px;
+    border-radius: 9px;
+    background-color: aliceblue;
+}
+
+.img-vis {
+    opacity: 0.5;
+}
+
+.container-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.bord {
+    height: 86px;
+    border-radius: 14px;
+    border: 2px solid rgb(255, 72, 0);
+}
+
+.img-box-z {
+    z-index: 1;
+}
+
+.img-box-main {
+    display: grid;
+    width: 100%;
+    /* height: 100vh; */
+    /* grid-area: "img-box-main"; */
+    /* grid-template: "img-box img-box img-box img-box img-box img-box img-box" 455px
+        "empty-0 empty-0 empty-0 empty-0 empty-0 empty-0 empty-0" 33px
+        "img-mini-1 empty-1 img-mini-2 empty-2 img-mini-3 empty-3 img-mini-4" 130px/
+        90px 25px 90px 25px 90px 25px 90px; */
+    /* grid-column-gap: 100px; */
+
+    grid-template: "img-box img-box img-box img-box" 435px
+        "container-img container-img container-img container-img" 30px/
+        90px 90px 90px 90px;
+    grid-column-gap: 12px;
+}
+
+
+.img-box {
+    grid-area: img-box;
+    width: 100%;
+}
+
+.img-mini-1 {
+    grid-area: img-mini-1;
+    width: 100%;
+}
+
+.img-mini-2 {
+    grid-area: img-mini-2;
+    width: 100%;
+}
+
+.img-mini-3 {
+    grid-area: img-mini-3;
+    width: 100%;
+}
+
+.img-mini-4 {
+    grid-area: img-mini-4;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    color: rgb(149, 149, 149);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    margin-bottom: 71px;
+}
+
+.item {
+    padding: 27px 25px 27px 20px;
+    cursor: pointer;
+}
+
+.item:hover {
+    padding-bottom: 25px;
+    border-bottom: 1px solid orange;
+}
+
+.icon-car:hover {
+    cursor: pointer;
+    border-bottom: unset;
+}
+
+.img-p {
+    padding: 27px 8px 20px 20px;
+}
+
+.img-perfil:hover {
+    width: 20px;
+    border-radius: 100px;
+    border: 3px solid orange;
+}
+
+.snake {
+    margin-right: 30px;
+    cursor: pointer;
+    padding-top: 27px;
+}
+
+.space {
+    margin-inline: 182px;
+}
+
+.snake {
+    color: black;
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.img-perfil,
+.icon-car {
+    margin-top: -18px;
+    width: 25px;
+}
+
+.info {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 90px 0px 90px 90px;
+}
+
+.orange {
+    color: orange;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.bottom {
+    margin-bottom: 15px;
+}
+
+.number-flex {
+    display: inline-flex;
+    gap: 15px;
+}
+
+.number {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.dto {
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: rgb(255, 226, 205);
+    color: rgb(248, 103, 7);
+    font-weight: bold;
+    height: 25px;
+    padding: 5px;
+}
+
+.before {
+    color: gray;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 81, 0);
+}
+
+.point:active {
+    border-radius: 10px;
+    background-color: rgb(255, 132, 0);
+}
+
+.point {
+    cursor: pointer;
+}
+
+.btn:active {
+    color: whitesmoke;
+}
+
+.count-num {
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.counter {
+    display: inline-flex;
+}
+
+.add {
+    border-radius: 8px;
+    border: none;
+    height: 58px;
+    margin-left: 30px;
+    width: 270px;
+    background-color: rgb(255, 123, 0);
+}
+
+.add:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.txt-add {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+
+.fa-cart-shopping {
+    margin-right: 20px;
+}
+
+.simb {
+    font-size: 18px;
+}
+
+.buttons {
+    border-radius: 12px;
+    background-color: rgb(243, 243, 243);
+    display: grid;
+    width: 150px;
+    grid-template: "less btn1 more" 58px/ 35px 35px 35px;
+    grid-column-gap: 15px;
+}
+
+.less {
+    padding-inline: 25px;
+    grid-area: less;
+}
+
+.btn1 {
+    padding-inline: 25px;
+    grid-area: btn1;
+}
+
+.more {
+    padding-inline: 25px;
+    grid-area: more;
+}
+
+/* Información de compra carrito */
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.info-shop {
+    display: none;
+    position: absolute;
+    margin: 80px 0px 0px 0px;
+    width: 400px;
+    height: 270px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+}
+
+.i {
+    position: absolute;
+    right: 106%;
+}
+
+.it {
+    position: absolute;
+    left: 96%;
+}
+
+.circle-row {
+    position: absolute;
+    color: aliceblue;
+    font-size: 2.5em;
+}
+.fa-xmark{
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+    cursor: pointer;
+    color: rgb(201, 71, 0);
+    font-size: 1.5em;
+    position: relative;
+    /* z-index: 9999; */
+    left: 129vh;
+    top: 18vh;
+}
