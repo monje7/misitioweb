@@ -63,8 +63,8 @@ body {
 
 
 .slideshow-container:hover {
-    box-shadow: 10px 10px 20px rgba(153, 100, 223, 0.705);
-
+    box-shadow: 15px 15px 30px rgba(153, 100, 223, 0.705);
+    transition: 0.8s ease;
     animation-duration: 0.5s;
 
 }
