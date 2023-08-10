@@ -8,9 +8,6 @@
     position: relative;
     display: flex;
     align-items: center;
-    border: 0.8px solid rgb(171, 166, 166);
-    /* justify-content: center; */
-
 }
 .hamburguesa{
     display: none;
@@ -29,22 +26,28 @@
     width: 207px;
     height: 42px;
 }
+
+.logo :hover{
+    cursor: pointer;
+}
 .logo2{
     display: none;
 }
 .container-searcher{
     position: relative;
     left: 100px;
-    border: 1.5px rgb(171, 166, 166) solid;
+    border: 1.5px rgb(201, 201, 201) solid;
     display: flex;
     width: 568px;
-    height: 38px;
+    height: 45px;
     margin-left: 255px;
     font-size: 1.1em;
     outline: none;
+
 }
 .main-searcher{
     display: flex;
+    margin-left: 10px ;
     /* width: 668px;
     height: 48px; */   
 }
