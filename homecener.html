@@ -3,74 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homecenter</title>
+    <title>Searcher</title>
     <link rel="stylesheet" href="css/homecenter.css">
-    <link rel="icon" href="">
     <link rel="stylesheet" href="icons/all.css">
+
 </head>
 <body>
-
-    <div class="inicio">
-        
-        <img src="img2/Captura de pantalla 2023-08-03 073814.png" alt="">
-
+    <div class="container" id="container">
+        <div class="hamburguesa"><i class="fa-solid fa-bars"></i></div>
+    <div class="contain-logo">
+        <img src="https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blta7cc331692d297db/5f3d804090eeff71088399b1/Artboard_1.png?" data-testid="sodimac" alt="Homecenter.co" class="logo">
     </div>
-
-    <div class="centro">
-        <div class="encabezado">
-            <label id="barMenu" class="minilogo">&#9776</label>
-            <img  src="img2/logo grande.png" alt="logo" >
-            <img class="minilogo" src="img2/homecenter.png" alt="logo" width="80px" height="50px">
-        </div>
-
-        <div class="busqueda">
-            <input class="bus" type="text" placeholder="¿Qué estás buscando?" > 
-
-            <svg x="0px" y="0px" viewBox="0 0 60 60" width="26" height="26"
-                class="DesktopSearchBar-module_lens-icon__Y-wnO">
-                <path class="st0" d="M54.8,51.4L38.7,35.3c2.6-3.1,4.2-7.1,4.2-11.5C42.9,14,34.9,6,25.1,6C15.2,6,7.2,14,7.2,23.8
-                c0,9.8,8,17.8,17.8,17.8c4.4,0,8.4-1.6,11.5-4.2l16.1,16.1L54.8,51.4z M10.2,23.8C10.2,15.6,16.9,9,25.1,9c8.2,0,14.8,6.7,14.8,14.8
-                c0,8.2-6.7,14.8-14.8,14.8C16.9,38.7,10.2,32,10.2,23.8z"></path>
-            </svg>
-            
-            
-       
-        <div class="ubicacion">
-            <i class="fa-solid fa-location-dot"></i>
-            
-        </div>
-         <div class="carrito">
-            <i class="fa-solid fa-cart-shopping"></i>
-        </div> 
-
-        <div class="CMR">
-            <img src="img2/cmr.png" alt="">
-        </div> 
-
-        <div class="cuenta">
-            <i class="fa-solid fa-user"></i>
-        </div> 
+    <div class="logo2">
+        <img src="https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/blt92ad3c89ae70b4d0/5f31a4ce1fe0e07eae813320/Logo_header_mobile.jpg?" data-testid="sodimac-mobile" alt="Homecenter.co" style="height: 25px;">
     </div>
-    
-
+    <div class="main-searcher" id="mainSearcher">
+        <input type="text"class="container-searcher" id="containerSeacher" placeholder="¿Que estas buscando?" >
+        <button class="searcher" id="button"><i class="fa-solid fa-magnifying-glass"></i></button>
     </div>
-
-    
-
-   
+    <div class="main-searcher-query main-searcher-query-hidden" id="containerQuery">
+        <i class="fa-solid fa-magnifying-glass searcher-query"></i>
+        <input type="text"class="container-searcher-query" placeholder="¿Que estas buscando?">
+        <i class="fa-solid fa-xmark" id="buttonX"></i>
+        <!-- <div class="searcher"><button><i class="fa-solid fa-magnifying-glass"></i></button></div> -->
+    </div>
+    <div class="ubicacion"><i class="fa-solid fa-location-dot"></i><p class="pUbicacion">Esta comprando para<br>Palestina</p></div>
+    <div class="carrito"><i class="fa-solid fa-cart-shopping"></i></div>
+    <div class="cmr">
+        <img class="cmr-img" style="height:39px;width:39px" src="https://images.sodimac.com/v3/assets/blt2f8082df109cfbfb/bltc47c3b63cd5f1ca2/5fab05b66f82405d9a4ab0e2/logo-cmr-puntos.svg" alt="cmr puntos image">
+        <p class="cmr-parrafo">Programa <br>CMR PUNTOS</p>
+    </div>
+    <div class="usuario"><i class="fa-regular fa-user"></i><p class="parrafo-usuario">Mi cuenta</p></div>
+    </div>
+    <script src="js/home.js"></script>
 </body>
 </html>
-
-
-
-
-<!-- <label id="barMenu" class="bar-menu">&#9776</label>
-
-    <i class="fa-solid fa-magnifying-glass"></i>
-
-
-    
-
-
-
-<img src="img2/homecenter.png" alt="logo" width="35px" height="35px"> -->

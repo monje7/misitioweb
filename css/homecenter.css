@@ -1,111 +1,200 @@
-*{
-    padding: 0;
+* {
     margin: 0;
-
+    padding: 0;
 }
-
-.inicio{
+.container{
+    height: 85px;
     width: 100%;
-}
-
-
-
-
-.centro {
-    background-color: rgb(255, 255, 255);
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 70px;
-    padding-top: 10px;
-    border-bottom: 1px solid rgb(214, 214, 214);
+    border: 0.8px solid rgb(171, 166, 166);
+    /* justify-content: center; */
 
 }
-
-.minilogo {
+.hamburguesa{
     display: none;
 }
-
-.busqueda {
+.contain-logo{
+    display: inline-flex;
+    position: relative;
+    left: 200px;
+    width: 68px;
+    height: 68px;
+}
+.logo {
+    display: flex;   
+    position: relative;
+    top: 10px;
+    width: 207px;
+    height: 42px;
+}
+.logo2{
+    display: none;
+}
+.container-searcher{
+    position: relative;
+    left: 100px;
+    border: 1.5px rgb(171, 166, 166) solid;
     display: flex;
+    width: 568px;
+    height: 38px;
+    margin-left: 255px;
+    font-size: 1.1em;
+    outline: none;
+}
+.main-searcher{
+    display: flex;
+    /* width: 668px;
+    height: 48px; */   
+}
+.searcher{
+    display: flex;
+    position: relative;
     align-items: center;
-
-}
-
-.bus {
-    width: 650px;
-    height: 40px;
-    border: 1px solid rgb(214, 214, 214);
-    padding-left: 10px;
-}
-
-.ubicacion {
- 
-    width: 150px;
-    height: 50px;
-    border: 1px solid black;
-    margin-left: 50px;
     justify-content: center;
-    align-items: center;
-    display: flex;
+    height: 38px;
+    width: 47px;
+    position: relative;
+    left: 52px;
+    margin-top: 1px;
+    font-size: 1.4em;
+    background-color: white;
+    border: none;
+
 }
-
-.carrito {
-    margin-left: 10px;
-
-    width: 80px;
-    height: 50px;
-    border: 1px solid black;
+.main-searcher-query {
+    display: none;
+}
+.ubicacion{
+    display: flex;
+    position: relative;
+    left: 95px;
+    font-size: 1.8em;
+}
+.pUbicacion{
+    margin-left: 12px;
+    font-size: 0.5em;
+}
+.carrito{
+    position: relative;
+    left: 140px;  
+    font-size: 1.7em;
+}
+.cmr{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    position: relative;
+}
+.cmr-img{
+    position: relative;
+    left: 175px;
+}
+.cmr-parrafo{
+    position: relative;
+    left: 185px;
+    font-size: 0.8em;
+}
+.usuario{
     display: flex;
-}
-
-.CMR {
-    margin-left: 10px;
-
-    width: 120px;
-    height: 50px;
-
-}
-.cuenta {
-    margin-left: 10px;
-
-    width: 100px;
-    height: 50px;
-    border: 1px solid black;
+    position: relative;
+    height: 44px;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    display: flex;
+    left: 210px;
+    font-size: 1.6em;
 }
-
-
-
-
-@media only screen and (max-width:320px) {
-    .minilogo {
+.parrafo-usuario{
+    font-size: 0.7em;
+    margin-left: 9px;
+}
+@media only screen and (min-width:10px) and (max-width:768px){
+    .container{
+        height: 60px;
+        
+    }
+    .hamburguesa{
         display: flex;
+        height: 27px;
+        font-size: 1.8em;
+        margin-left: 26px;
+        font-weight: 900;
     }
-
-    .CMR {
-        margin-left: 10px;
-        display: none;
-        width: 120px;
-        height: 50px;
-    
-    }
-
-    .logo-grande{
+    .logo{
         display: none;
     }
-
-    .busqueda{
-        display: block;
+    .logo2{
+        display: flex;
+        position: relative;
+        left: -55px;
     }
-
-    .bus {
+    .container-searcher{
+        display: none;   
+        position: absolute;
+        height: 60px;
+        width: 100%;
+        margin-top: -11.5px;
+        margin-left: -101px;
+    }
+    .ubicacion{
         display: none;
     }
-
+    .cmr{
+        display: none;
+    }
+    .parrafo-usuario{
+        display: none;
+    }
+    .searcher{
+        position: relative;
+        left: 50px;
+    }
+    .carrito{
+        position: relative;
+        font-size: 21px;
+        left: 100px;
+    }
+    .usuario{
+        position: relative;
+        left: 120px;
+    }
+    .main-searcher-query{
+        display: flex;  
+        z-index: 12;
+        background-color: white; 
+        text-align: center;
+        align-items: center;
+        /* justify-content: center; */
+        position: absolute;
+        height: 60px;
+        width: 100%;
+    }
+    .main-searcher-query-hidden{
+        visibility: hidden;
+        display: none;
+    }
+    .searcher-query{
+        /* height: 36px;
+        width: 33px; */
+        position: relative;
+        left: 8px;
+        font-size: 20px;
+        
+    }
+    .container-searcher-query {
+        position: relative;
+        width: 80%;
+        height: 28px;
+        font-size: 1em;
+        border: none;
+        left: 15px;
+        outline: none;
+    }
+    .fa-xmark{
+        position: relative;
+        left: 35px;
+        font-size: 20px;
+    }
 }
+
