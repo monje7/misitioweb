@@ -196,5 +196,10 @@
         left: 35px;
         font-size: 20px;
     }
+
+
+    .fa-xmark :hover {
+        cursor: pointer;
+    }
 }
 
